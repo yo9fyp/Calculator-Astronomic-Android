@@ -1,0 +1,22 @@
+CALCULATOR ASTRONOMIC - PROIECT ANDROID
+
+Acest ZIP NU conține un APK compilat. Conține sursele și un flux GitHub Actions
+care poate construi un APK Android 10+ (ARM64).
+
+Pentru compilare fără Python pe calculator:
+1. Creați un repository GitHub nou (preferabil privat).
+2. Încărcați CONȚINUTUL acestui folder în rădăcina repository-ului,
+   inclusiv folderul ascuns .github/workflows/android.yml.
+3. Deschideți fila Actions > Construire APK Android > Run workflow.
+4. La final, descărcați artefactul Calculator-Astronomic-APK.
+5. Dezarhivați artefactul și transferați fișierul .apk pe telefon.
+
+Este un proiect inițial, nu un APK testat. Compilarea poate necesita ajustări
+ale versiunilor SDK/Buildozer în funcție de schimbările ecosistemului.
+
+IMPORTANT: Instalarea din afara Google Play poate solicita autorizarea sursei
+și poate afișa avertismente Android. Nu dezactivați Play Protect.
+
+PRECIZIE: Codul astronomic este preluat din scriptul original. Aproximarea ΔT
+și alegerea fixă UTC+2/UTC+3 NU reprezintă o reconstrucție istorică a orei
+legale a României; rezultatele sunt estimări, nu efemeride certificate.
